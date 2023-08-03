@@ -1,0 +1,617 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contnir {
+    max-width: 1250px;
+    margin: auto;
+}
+
+.main-div>ul {
+    display: flex;
+    gap: 50px;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.Piggyvest-button {
+    border: 1px solid;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+.Sign-button {
+    display: flex;
+    margin: auto;
+    background-color: white;
+    padding-top: 10px;
+    border: 0px solid;
+}
+
+.Piggyvest-button1 {
+    border: 1px solid;
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+
+}
+
+.create-button {
+    border: 0px solid;
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    margin-left: 25px;
+}
+
+.Piggyvest-div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.Piggyvest {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Batter-Heading {
+    margin-top: 30px;
+    max-width: 250px;
+}
+
+.Batter-paragraph {
+    max-width: 450px;
+    margin-top: 20px;
+}
+
+.Batter-img {
+    max-height: 400px;
+}
+
+.Batter-button {
+    border: 1px solid;
+    width: 170px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.Batter-create {
+    border: 0px solid;
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    margin-left: 25px;
+}
+
+.Batter-icon1 {
+    border: 1px solid;
+    width: 172px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+.button-div {
+    display: flex;
+    gap: 20px;
+}
+
+.Batter-div {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 0px 20px;
+}
+
+.security-div {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.security-paragraph {
+    max-width: 650px;
+    margin-top: 10px;
+}
+
+.security-learn {
+    color: #0051EE;
+    margin-top: 10px;
+
+}
+
+.way-Piggybank {
+    background: #F9F9F9;
+    width: 260px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.way-img {
+    padding: 10px;
+}
+
+.way-img2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.way-paragraph {
+    font-weight: 700;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.way-paragraph2 {
+    max-width: 300px;
+    padding: 5px;
+}
+
+.way-grid {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+
+}
+
+.way-img3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.way-button {
+    border: 1px solid;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.way-start {
+    background-color: black;
+    color: white;
+    border: 0px solid;
+    margin-left: 30px;
+    padding-top: 12px;
+}
+
+.way-div {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+
+.way-di {
+    margin: 50px 0px;
+}
+
+.way-heading {
+    max-width: 250px;
+}
+
+.way-paragrap3 {
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+.Access-img {
+    width: 400px;
+}
+
+.Access-button {
+    width: 140px;
+    height: 40px;
+    background-color: #E3CDF96B;
+    border-radius: 20px;
+}
+
+.Access-button1 {
+    border: 0px solid;
+    background-color: #E3CDF96B;
+    color: #7913E5;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.Access-div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Access-di {
+    margin-top: 50px;
+}
+
+.Access-heading {
+    max-width: 250px;
+    margin-top: 10px;
+}
+
+.Access-paragraph {
+    max-width: 350px;
+    margin-top: 10px;
+}
+
+.Access-paragraph1 {
+    color: #7913E5;
+    margin-top: 10px;
+}
+
+.Meet-bg {
+    background-color: #0051EE;
+}
+
+.Meet-img1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.Meet-div {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.Meet-img2 {
+    width: 400px;
+}
+
+.Meet-di {
+    margin-top: 30px;
+    padding: 30px;
+
+}
+
+.Meet-heading {
+    max-width: 250px;
+    color: white;
+}
+
+.Meet-paragraph {
+    max-width: 380px;
+    margin-top: 10px;
+    color: white;
+}
+
+.Meet-paragraph1 {
+    color: white;
+}
+
+.Million-img1 {
+    width: 60px;
+    height: 62px;
+    border-radius: 90px;
+}
+
+.Million-paragraph1 {
+    font-weight: 900;
+
+}
+
+.Million-div {
+    display: flex;
+    gap: 10px;
+   align-items: center;
+    margin-top: 10px;
+}
+
+.Million-paragraph2 {
+    margin-top: 5px;
+    max-width: 380px;
+}
+
+.Million-button {
+    width: 172px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.Million-create {
+    background-color: black;
+    color: white;
+    border: 0px solid;
+    display: flex;
+    margin: auto;
+    padding-top: 12px;
+}
+
+.Million-button1 {
+    border: 1px solid;
+    width: 172px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.Million-icon {
+    margin-left: 30px;
+    padding-top: 12px;
+}
+
+.Million-iphone {
+    background-color: white;
+    border: 0px solid;
+}
+
+.Million {
+    display: flex;
+    gap: 10px;
+}
+
+.Million-main1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 30px;
+    padding: 0px 20px;
+}
+
+.Million-paragraph {
+    max-width: 350px;
+    margin-top: 20px;
+}
+
+.featured-bg {
+    background-color: #F9F9F9;
+    height: 200px;
+}
+
+.featured-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 70px;
+    margin-top: 20px;
+}
+
+.icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.piggyvest-main1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 0px 20px;
+}
+
+.piggyvest-product {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.piggyvest-paragraph {
+    margin-top: 20px;
+}
+
+.piggyvest-paragraph2 {
+    margin-top: 10px;
+    max-width: 250px;
+}
+
+.piggyvest-paragraph3 {
+    margin-top: 10px;
+}
+
+.piggyvest-product1 {
+    max-width: 100%;
+    max-height:100px ;
+}
+
+.piggyvest-paragraph4 {
+    margin: auto;
+    max-width: 790px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.piggyvest-paragraph5 {
+    text-align: center;
+    margin-top: 40px;
+    color: #0047FF;
+    ;
+}
+
+
+
+/* responivr code */
+
+@media only screen and (max-width: 1000px) {
+   
+    .Piggyvest {
+       flex-wrap: wrap;
+    }
+
+    .way-div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+    }
+
+    .way-heading {
+        max-width: 100%;
+    }
+
+    .way-paragraph2 {
+        max-width: 100%;
+    }
+
+    .way-Piggybank {
+        width: 100%;
+        height: 240px;
+        border-radius: 10px;
+
+    }
+
+    .Million-main1 {
+        flex-direction: column-reverse;
+
+    }
+
+    .Million-paragraph {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 756px) {
+    .Batter-div {
+        display: flex;
+       flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .security-div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .security-padding {
+        text-align: center;
+    }
+
+    .Access-div {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        padding: 0px 20px;
+    }
+
+    .Access-img {
+        width: 100%;
+    }
+
+    .Access-heading {
+        max-width: 100%;
+    }
+
+    .Access-paragraph {
+        max-width: 100%;
+    }
+
+    .Meet-div {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .Meet-img2 {
+        width: 100%;
+    }
+
+    .Meet-heading {
+        max-width: 100%;
+    }
+
+    .Meet-paragraph {
+        max-width: 100%;
+    }
+    .piggyvest-product1{
+       max-width: 100%;
+       max-height: 100px;
+    }
+    .piggyvest-main1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .featured-div{
+        flex-direction:column;
+        padding: 20px 20px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .way-grid {
+        grid-template-columns: auto;
+
+    }
+    .piggyvest-product1{
+        max-width: 100%;
+        max-height: 20px;
+     }
+     .piggyvest-main1 {
+         display: flex;
+         margin-top: 20px;
+      padding: 30px 20px;
+     }
+ 
+}
+
+
+@media only screen and (max-width:450px) {
+    .Batter-div{
+      flex-wrap: wrap;
+    }
+    .Batter-img{
+        max-width: 100%;
+    }
+    .featured-img{
+        max-width: 100%;
+    }
+    .piggyvest-product1{
+       max-height: 100px;
+    }
+
+    .piggyvest-main1{
+        gap: 50px;
+       flex-wrap: wrap;
+       justify-content: center;
+       grid-template-columns: auto;
+ 
+    } 
+}
