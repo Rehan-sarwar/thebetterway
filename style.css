@@ -11,6 +11,7 @@
 
 .main-div>ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
