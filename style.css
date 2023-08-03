@@ -594,7 +594,7 @@ a {
 }
 
 
-@media only screen and (max-width:450px) {
+@media only screen and (min-width:350px)and  (max-width:450px) {
     .Batter-div{
       flex-wrap: wrap;
     }
@@ -615,4 +615,9 @@ a {
        grid-template-columns: auto;
  
     } 
+    .main-div>ul{
+        flex-direction: column;
+        gap: 10px;
+        margin: auto;
+    }
 }
