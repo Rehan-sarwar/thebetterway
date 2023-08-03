@@ -615,9 +615,10 @@ a {
        grid-template-columns: auto;
  
     } 
-    .main-div>ul{
+    .main-div{
         flex-direction: column;
         gap: 10px;
         margin: auto;
+    
     }
 }
